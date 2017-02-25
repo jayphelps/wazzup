@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Start Section adds a start 1`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [
+    Function {
+      "body": Array [],
+      "externalKind": 0,
+      "functionType": FunctionType {
+        "paramTypes": Array [],
+        "returnTypes": Array [],
+        "type": 96,
+      },
+      "localTypes": Array [],
+      "name": "foo",
+      "type": 112,
+    },
+  ],
+  "globals": Array [],
+  "imports": Array [],
+  "memories": Array [],
+  "start": Function {
+    "body": Array [],
+    "externalKind": 0,
+    "functionType": FunctionType {
+      "paramTypes": Array [],
+      "returnTypes": Array [],
+      "type": 96,
+    },
+    "localTypes": Array [],
+    "name": "foo",
+    "type": 112,
+  },
+  "tables": Array [],
+  "types": Array [
+    FunctionType {
+      "paramTypes": Array [],
+      "returnTypes": Array [],
+      "type": 96,
+    },
+  ],
+  "version": 1,
+}
+`;
+
+exports[`Start Section adds a start 2`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+  1,
+  4,
+  1,
+  96,
+  0,
+  0,
+  3,
+  2,
+  1,
+  0,
+  8,
+  1,
+  0,
+  10,
+  4,
+  1,
+  2,
+  0,
+  11,
+]
+`;
+
+exports[`Start Section adds a start 3`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [
+    Function {
+      "body": Array [],
+      "externalKind": 0,
+      "functionType": FunctionType {
+        "paramTypes": Array [],
+        "returnTypes": Array [],
+        "type": 96,
+      },
+      "localTypes": Array [],
+      "name": "foo",
+      "type": 112,
+    },
+    Function {
+      "body": Array [],
+      "externalKind": 0,
+      "functionType": FunctionType {
+        "paramTypes": Array [],
+        "returnTypes": Array [],
+        "type": 96,
+      },
+      "localTypes": Array [],
+      "name": "bar",
+      "type": 112,
+    },
+  ],
+  "globals": Array [],
+  "imports": Array [],
+  "memories": Array [],
+  "start": Function {
+    "body": Array [],
+    "externalKind": 0,
+    "functionType": FunctionType {
+      "paramTypes": Array [],
+      "returnTypes": Array [],
+      "type": 96,
+    },
+    "localTypes": Array [],
+    "name": "bar",
+    "type": 112,
+  },
+  "tables": Array [],
+  "types": Array [
+    FunctionType {
+      "paramTypes": Array [],
+      "returnTypes": Array [],
+      "type": 96,
+    },
+    FunctionType {
+      "paramTypes": Array [],
+      "returnTypes": Array [],
+      "type": 96,
+    },
+  ],
+  "version": 1,
+}
+`;
+
+exports[`Start Section adds a start 4`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+  1,
+  7,
+  2,
+  96,
+  0,
+  0,
+  96,
+  0,
+  0,
+  3,
+  3,
+  2,
+  0,
+  1,
+  8,
+  1,
+  1,
+  10,
+  7,
+  2,
+  2,
+  0,
+  11,
+  2,
+  0,
+  11,
+]
+`;

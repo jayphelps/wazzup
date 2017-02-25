@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Preamble contains standard preamble 1`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [],
+  "globals": Array [],
+  "imports": Array [],
+  "memories": Array [],
+  "tables": Array [],
+  "types": Array [],
+  "version": 1,
+}
+`;
+
+exports[`Preamble contains standard preamble 2`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+]
+`;

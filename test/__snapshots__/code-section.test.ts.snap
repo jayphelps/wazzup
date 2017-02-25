@@ -1,0 +1,545 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Code Section (aka function bodies) adds codes from different functions 1`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [
+    Function {
+      "body": Array [
+        Const {
+          "opcode": 65,
+          "returnType": 127,
+          "value": 1,
+        },
+      ],
+      "externalKind": 0,
+      "functionType": FunctionType {
+        "paramTypes": Array [],
+        "returnTypes": Array [
+          127,
+        ],
+        "type": 96,
+      },
+      "localTypes": Array [],
+      "name": "foo",
+      "type": 112,
+    },
+  ],
+  "globals": Array [],
+  "imports": Array [],
+  "memories": Array [],
+  "tables": Array [],
+  "types": Array [
+    FunctionType {
+      "paramTypes": Array [],
+      "returnTypes": Array [
+        127,
+      ],
+      "type": 96,
+    },
+  ],
+  "version": 1,
+}
+`;
+
+exports[`Code Section (aka function bodies) adds codes from different functions 2`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+  1,
+  5,
+  1,
+  96,
+  0,
+  1,
+  127,
+  3,
+  2,
+  1,
+  0,
+  10,
+  6,
+  1,
+  4,
+  0,
+  65,
+  1,
+  11,
+]
+`;
+
+exports[`Code Section (aka function bodies) adds codes from different functions 3`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [
+    Function {
+      "body": Array [
+        Const {
+          "opcode": 65,
+          "returnType": 127,
+          "value": 1,
+        },
+      ],
+      "externalKind": 0,
+      "functionType": FunctionType {
+        "paramTypes": Array [],
+        "returnTypes": Array [
+          127,
+        ],
+        "type": 96,
+      },
+      "localTypes": Array [],
+      "name": "foo",
+      "type": 112,
+    },
+    Function {
+      "body": Array [
+        Const {
+          "opcode": 65,
+          "returnType": 127,
+          "value": 1,
+        },
+        Drop {},
+      ],
+      "externalKind": 0,
+      "functionType": FunctionType {
+        "paramTypes": Array [],
+        "returnTypes": Array [],
+        "type": 96,
+      },
+      "localTypes": Array [],
+      "name": "bar",
+      "type": 112,
+    },
+  ],
+  "globals": Array [],
+  "imports": Array [],
+  "memories": Array [],
+  "tables": Array [],
+  "types": Array [
+    FunctionType {
+      "paramTypes": Array [],
+      "returnTypes": Array [
+        127,
+      ],
+      "type": 96,
+    },
+    FunctionType {
+      "paramTypes": Array [],
+      "returnTypes": Array [],
+      "type": 96,
+    },
+  ],
+  "version": 1,
+}
+`;
+
+exports[`Code Section (aka function bodies) adds codes from different functions 4`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+  1,
+  8,
+  2,
+  96,
+  0,
+  1,
+  127,
+  96,
+  0,
+  0,
+  3,
+  3,
+  2,
+  0,
+  1,
+  10,
+  12,
+  2,
+  4,
+  0,
+  65,
+  1,
+  11,
+  5,
+  0,
+  65,
+  1,
+  26,
+  11,
+]
+`;
+
+exports[`Code Section (aka function bodies) adds constants 1`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [
+    Function {
+      "body": Array [
+        Const {
+          "opcode": 65,
+          "returnType": 127,
+          "value": 1,
+        },
+        Drop {},
+        Const {
+          "opcode": 66,
+          "returnType": 126,
+          "value": 2,
+        },
+      ],
+      "externalKind": 0,
+      "functionType": FunctionType {
+        "paramTypes": Array [],
+        "returnTypes": Array [
+          126,
+        ],
+        "type": 96,
+      },
+      "localTypes": Array [],
+      "name": "foo",
+      "type": 112,
+    },
+  ],
+  "globals": Array [],
+  "imports": Array [],
+  "memories": Array [],
+  "tables": Array [],
+  "types": Array [
+    FunctionType {
+      "paramTypes": Array [],
+      "returnTypes": Array [
+        126,
+      ],
+      "type": 96,
+    },
+  ],
+  "version": 1,
+}
+`;
+
+exports[`Code Section (aka function bodies) adds constants 2`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+  1,
+  5,
+  1,
+  96,
+  0,
+  1,
+  126,
+  3,
+  2,
+  1,
+  0,
+  10,
+  9,
+  1,
+  7,
+  0,
+  65,
+  1,
+  26,
+  66,
+  2,
+  11,
+]
+`;
+
+exports[`Code Section (aka function bodies) adds drop 1`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [
+    Function {
+      "body": Array [
+        Const {
+          "opcode": 65,
+          "returnType": 127,
+          "value": 1,
+        },
+        Drop {},
+      ],
+      "externalKind": 0,
+      "functionType": FunctionType {
+        "paramTypes": Array [],
+        "returnTypes": Array [],
+        "type": 96,
+      },
+      "localTypes": Array [],
+      "name": "foo",
+      "type": 112,
+    },
+  ],
+  "globals": Array [],
+  "imports": Array [],
+  "memories": Array [],
+  "tables": Array [],
+  "types": Array [
+    FunctionType {
+      "paramTypes": Array [],
+      "returnTypes": Array [],
+      "type": 96,
+    },
+  ],
+  "version": 1,
+}
+`;
+
+exports[`Code Section (aka function bodies) adds drop 2`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+  1,
+  4,
+  1,
+  96,
+  0,
+  0,
+  3,
+  2,
+  1,
+  0,
+  10,
+  7,
+  1,
+  5,
+  0,
+  65,
+  1,
+  26,
+  11,
+]
+`;
+
+exports[`Code Section (aka function bodies) adds loads 1`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [
+    Function {
+      "body": Array [
+        Load {
+          "alignment": 1,
+          "byteCount": 1,
+          "expression": Const {
+            "opcode": 65,
+            "returnType": 127,
+            "value": 1,
+          },
+          "offset": 0,
+          "signed": true,
+          "type": 127,
+        },
+        Drop {},
+        Load {
+          "alignment": 2,
+          "byteCount": 2,
+          "expression": Const {
+            "opcode": 65,
+            "returnType": 127,
+            "value": 2,
+          },
+          "offset": 1,
+          "signed": true,
+          "type": 127,
+        },
+        Drop {},
+        Load {
+          "alignment": 3,
+          "byteCount": 4,
+          "expression": Const {
+            "opcode": 65,
+            "returnType": 127,
+            "value": 3,
+          },
+          "offset": 2,
+          "signed": true,
+          "type": 127,
+        },
+        Drop {},
+        Load {
+          "alignment": 1,
+          "byteCount": 1,
+          "expression": Const {
+            "opcode": 65,
+            "returnType": 127,
+            "value": 1,
+          },
+          "offset": 0,
+          "signed": false,
+          "type": 126,
+        },
+        Drop {},
+        Load {
+          "alignment": 2,
+          "byteCount": 2,
+          "expression": Const {
+            "opcode": 65,
+            "returnType": 127,
+            "value": 2,
+          },
+          "offset": 1,
+          "signed": false,
+          "type": 126,
+        },
+        Drop {},
+        Load {
+          "alignment": 3,
+          "byteCount": 4,
+          "expression": Const {
+            "opcode": 65,
+            "returnType": 127,
+            "value": 3,
+          },
+          "offset": 2,
+          "signed": false,
+          "type": 126,
+        },
+        Drop {},
+        Load {
+          "alignment": 4,
+          "byteCount": 8,
+          "expression": Const {
+            "opcode": 65,
+            "returnType": 127,
+            "value": 4,
+          },
+          "offset": 3,
+          "signed": false,
+          "type": 126,
+        },
+        Drop {},
+      ],
+      "externalKind": 0,
+      "functionType": FunctionType {
+        "paramTypes": Array [],
+        "returnTypes": Array [],
+        "type": 96,
+      },
+      "localTypes": Array [],
+      "name": "foo",
+      "type": 112,
+    },
+  ],
+  "globals": Array [],
+  "imports": Array [],
+  "memories": Array [
+    Memory {
+      "externalKind": 2,
+      "initialSize": 1,
+      "maxSize": 1,
+      "segments": Array [],
+    },
+  ],
+  "tables": Array [],
+  "types": Array [
+    FunctionType {
+      "paramTypes": Array [],
+      "returnTypes": Array [],
+      "type": 96,
+    },
+  ],
+  "version": 1,
+}
+`;
+
+exports[`Code Section (aka function bodies) adds loads 2`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+  1,
+  4,
+  1,
+  96,
+  0,
+  0,
+  3,
+  2,
+  1,
+  0,
+  5,
+  4,
+  1,
+  1,
+  1,
+  1,
+  10,
+  46,
+  1,
+  44,
+  0,
+  65,
+  1,
+  44,
+  0,
+  0,
+  26,
+  65,
+  2,
+  46,
+  1,
+  1,
+  26,
+  65,
+  3,
+  40,
+  1,
+  2,
+  26,
+  65,
+  1,
+  49,
+  0,
+  0,
+  26,
+  65,
+  2,
+  51,
+  1,
+  1,
+  26,
+  65,
+  3,
+  53,
+  1,
+  2,
+  26,
+  65,
+  4,
+  41,
+  2,
+  3,
+  26,
+  11,
+]
+`;

@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Import Section adds function imports 1`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [],
+  "globals": Array [],
+  "imports": Array [
+    Import {
+      "externalKind": 0,
+      "fieldName": "foo",
+      "moduleName": "env1",
+      "name": "foo1",
+      "type": 127,
+    },
+  ],
+  "memories": Array [],
+  "tables": Array [],
+  "types": Array [
+    FunctionType {
+      "paramTypes": Array [
+        127,
+      ],
+      "returnTypes": Array [
+        127,
+      ],
+      "type": 96,
+    },
+  ],
+  "version": 1,
+}
+`;
+
+exports[`Import Section adds function imports 2`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+  1,
+  6,
+  1,
+  96,
+  1,
+  127,
+  1,
+  127,
+  2,
+  12,
+  1,
+  4,
+  101,
+  110,
+  118,
+  49,
+  3,
+  102,
+  111,
+  111,
+  0,
+  0,
+]
+`;
+
+exports[`Import Section adds function imports 3`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [],
+  "globals": Array [],
+  "imports": Array [
+    Import {
+      "externalKind": 0,
+      "fieldName": "foo",
+      "moduleName": "env1",
+      "name": "foo1",
+      "type": 127,
+    },
+    Import {
+      "externalKind": 0,
+      "fieldName": "foo",
+      "moduleName": "env2",
+      "name": "foo2",
+      "type": 127,
+    },
+  ],
+  "memories": Array [],
+  "tables": Array [],
+  "types": Array [
+    FunctionType {
+      "paramTypes": Array [
+        127,
+      ],
+      "returnTypes": Array [
+        127,
+      ],
+      "type": 96,
+    },
+    FunctionType {
+      "paramTypes": Array [
+        126,
+        127,
+      ],
+      "returnTypes": Array [
+        127,
+      ],
+      "type": 96,
+    },
+  ],
+  "version": 1,
+}
+`;
+
+exports[`Import Section adds function imports 4`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+  1,
+  12,
+  2,
+  96,
+  1,
+  127,
+  1,
+  127,
+  96,
+  2,
+  126,
+  127,
+  1,
+  127,
+  2,
+  23,
+  2,
+  4,
+  101,
+  110,
+  118,
+  49,
+  3,
+  102,
+  111,
+  111,
+  0,
+  0,
+  4,
+  101,
+  110,
+  118,
+  50,
+  3,
+  102,
+  111,
+  111,
+  0,
+  1,
+]
+`;
+
+exports[`Import Section adds global imports 1`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [],
+  "globals": Array [],
+  "imports": Array [
+    Import {
+      "externalKind": 3,
+      "fieldName": "foo",
+      "moduleName": "env1",
+      "name": "foo1",
+      "type": 127,
+    },
+  ],
+  "memories": Array [],
+  "tables": Array [],
+  "types": Array [],
+  "version": 1,
+}
+`;
+
+exports[`Import Section adds global imports 2`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+  2,
+  13,
+  1,
+  4,
+  101,
+  110,
+  118,
+  49,
+  3,
+  102,
+  111,
+  111,
+  3,
+  127,
+  0,
+]
+`;
+
+exports[`Import Section adds global imports 3`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [],
+  "globals": Array [],
+  "imports": Array [
+    Import {
+      "externalKind": 3,
+      "fieldName": "foo",
+      "moduleName": "env1",
+      "name": "foo1",
+      "type": 127,
+    },
+    Import {
+      "externalKind": 3,
+      "fieldName": "bar",
+      "moduleName": "env2",
+      "name": "bar1",
+      "type": 126,
+    },
+  ],
+  "memories": Array [],
+  "tables": Array [],
+  "types": Array [],
+  "version": 1,
+}
+`;
+
+exports[`Import Section adds global imports 4`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+  2,
+  25,
+  2,
+  4,
+  101,
+  110,
+  118,
+  49,
+  3,
+  102,
+  111,
+  111,
+  3,
+  127,
+  0,
+  4,
+  101,
+  110,
+  118,
+  50,
+  3,
+  98,
+  97,
+  114,
+  3,
+  126,
+  0,
+]
+`;
+
+exports[`Import Section adds global imports 5`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [],
+  "globals": Array [],
+  "imports": Array [
+    Import {
+      "externalKind": 3,
+      "fieldName": "foo",
+      "moduleName": "env1",
+      "name": "foo1",
+      "type": 127,
+    },
+  ],
+  "memories": Array [],
+  "tables": Array [],
+  "types": Array [],
+  "version": 1,
+}
+`;
+
+exports[`Import Section adds global imports 6`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+  2,
+  13,
+  1,
+  4,
+  101,
+  110,
+  118,
+  49,
+  3,
+  102,
+  111,
+  111,
+  3,
+  127,
+  0,
+]
+`;
+
+exports[`Import Section adds global imports 7`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [],
+  "globals": Array [],
+  "imports": Array [
+    Import {
+      "externalKind": 3,
+      "fieldName": "foo",
+      "moduleName": "env1",
+      "name": "foo1",
+      "type": 127,
+    },
+    Import {
+      "externalKind": 3,
+      "fieldName": "bar",
+      "moduleName": "env2",
+      "name": "bar1",
+      "type": 126,
+    },
+  ],
+  "memories": Array [],
+  "tables": Array [],
+  "types": Array [],
+  "version": 1,
+}
+`;
+
+exports[`Import Section adds global imports 8`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+  2,
+  25,
+  2,
+  4,
+  101,
+  110,
+  118,
+  49,
+  3,
+  102,
+  111,
+  111,
+  3,
+  127,
+  0,
+  4,
+  101,
+  110,
+  118,
+  50,
+  3,
+  98,
+  97,
+  114,
+  3,
+  126,
+  0,
+]
+`;

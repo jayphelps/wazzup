@@ -1,0 +1,55 @@
+{
+  "name": "wazzup",
+  "version": "0.0.1",
+  "description": "Compiler infrastructure/toolchain library for WebAssembly, in TypeScript",
+  "author": "Jay Phelps <hello@jayphelps.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayphelps/wazzup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jayphelps/wazzup/issues"
+  },
+  "homepage": "https://github.com/jayphelps/wazzup",
+  "main": "dist/cjs/index.js",
+  "jsnext:main": "dist/esm/index.js",
+  "scripts": {
+    "start": "nodemon --exec \"clear && ts-node src/main.ts && ../../wabt/out/wasm2wast example.wasm && ../../wabt/out/wasm-interp example.wasm\" --watch src -e ts,js",
+    "build": "npm run build:es2015 && npm run build:esm && npm run build:cjs && npm run build:umd && npm run build:umd:min",
+    "build:es2015": "tsc --module es2015 --target es2015 --outDir dist/es2015",
+    "build:esm": "tsc --module es2015 --target es5 --outDir dist/esm",
+    "build:cjs": "tsc --module commonjs --target es5 --outDir dist/cjs",
+    "build:umd": "rollup dist/esm/index.js --format umd --name Wazzup --sourceMap --output dist/umd/wazzup.js",
+    "build:umd:min": "cd dist/umd && uglifyjs --compress --mangle --source-map --screw-ie8 --comments --o wazzup.min.js -- wazzup.js && gzip wazzup.min.js -c > wazzup.min.js.gz",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "build:third-party": "cd third-party/wabt && make",
+    "preinstall": "git submodule update --init --recursive",
+    "install": "npm run build:third-party"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "test/.*.test.ts$",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ]
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.41",
+    "@types/jest": "^19.2.3",
+    "@types/node": "^7.0.18",
+    "jest": "^20.0.1",
+    "multiline-template": "^0.1.1",
+    "nodemon": "^1.11.0",
+    "rollup": "^0.41.4",
+    "tmp": "0.0.31",
+    "ts-jest": "^20.0.3",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.4.0-dev.20170602",
+    "uglify-js": "^2.7.5"
+  }
+}

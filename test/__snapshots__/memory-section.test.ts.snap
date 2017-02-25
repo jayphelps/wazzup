@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Memory Section adds a memory 1`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [],
+  "globals": Array [],
+  "imports": Array [],
+  "memories": Array [
+    Memory {
+      "externalKind": 2,
+      "initialSize": 1,
+      "maxSize": 1,
+      "segments": Array [],
+    },
+  ],
+  "tables": Array [],
+  "types": Array [],
+  "version": 1,
+}
+`;
+
+exports[`Memory Section adds a memory 2`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+  5,
+  4,
+  1,
+  1,
+  1,
+  1,
+]
+`;
+
+exports[`Memory Section adds a memory with a multiple data 1`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [],
+  "globals": Array [],
+  "imports": Array [],
+  "memories": Array [
+    Memory {
+      "externalKind": 2,
+      "initialSize": 2,
+      "maxSize": 4,
+      "segments": Array [
+        Data {
+          "offset": Const {
+            "opcode": 65,
+            "returnType": 127,
+            "value": 0,
+          },
+          "value": "hello",
+        },
+        Data {
+          "offset": Const {
+            "opcode": 65,
+            "returnType": 127,
+            "value": 50,
+          },
+          "value": "world",
+        },
+      ],
+    },
+  ],
+  "tables": Array [],
+  "types": Array [],
+  "version": 1,
+}
+`;
+
+exports[`Memory Section adds a memory with a multiple data 2`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+  5,
+  4,
+  1,
+  1,
+  2,
+  4,
+  11,
+  21,
+  2,
+  0,
+  65,
+  0,
+  11,
+  5,
+  104,
+  101,
+  108,
+  108,
+  111,
+  0,
+  65,
+  50,
+  11,
+  5,
+  119,
+  111,
+  114,
+  108,
+  100,
+]
+`;
+
+exports[`Memory Section adds a memory with a single datum 1`] = `
+Module {
+  "exports": Array [],
+  "functions": Array [],
+  "globals": Array [],
+  "imports": Array [],
+  "memories": Array [
+    Memory {
+      "externalKind": 2,
+      "initialSize": 2,
+      "maxSize": 4,
+      "segments": Array [
+        Data {
+          "offset": Const {
+            "opcode": 65,
+            "returnType": 127,
+            "value": 0,
+          },
+          "value": "hello world",
+        },
+      ],
+    },
+  ],
+  "tables": Array [],
+  "types": Array [],
+  "version": 1,
+}
+`;
+
+exports[`Memory Section adds a memory with a single datum 2`] = `
+Uint8Array [
+  0,
+  97,
+  115,
+  109,
+  1,
+  0,
+  0,
+  0,
+  5,
+  4,
+  1,
+  1,
+  2,
+  4,
+  11,
+  17,
+  1,
+  0,
+  65,
+  0,
+  11,
+  11,
+  104,
+  101,
+  108,
+  108,
+  111,
+  32,
+  119,
+  111,
+  114,
+  108,
+  100,
+]
+`;
